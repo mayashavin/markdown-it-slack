@@ -11,7 +11,7 @@
 
 
 
-## How to install 🛠️
+# How to install 🛠️
 
 ```
 npm install markdown-it-slack --save
@@ -21,7 +21,7 @@ yarn add markdown-it-slack
 
 
 
-## How to use 👨‍💻
+# How to use 👨‍💻
 
 ### Using `import` 
 
@@ -49,7 +49,7 @@ md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrou
 
 
 
-## Coming soon 🏹 👩‍🔬
+# Coming soon 🏹 👩‍🔬
 
 * Customize which syntax to override.
 
