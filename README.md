@@ -9,12 +9,16 @@
 3. ~~Strikethrough~~ (Using ~ strikethrough ~ instead of ~~ strikethrough ~~)
 
 
+
+
 ## How to install 🛠️
 
 ```
 npm install markdown-it-slack --save
 yarn add markdown-it-slack
 ```
+
+
 
 
 ## How to use 👨‍💻
@@ -41,6 +45,9 @@ md.use(require('markdown-it-slack'));
 md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrough~ me!`)
 
 ```
+
+
+
 
 ## Coming soon 🏹 👩‍🔬
 
