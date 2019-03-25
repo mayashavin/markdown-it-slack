@@ -56,3 +56,7 @@ md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrou
 * Optimization for tag rendering.
 
 * Test coverage.
+
+
+##License
+[MIT](https://github.com/mayashavin/markdown-it-slack/blob/master/LICENSE)
