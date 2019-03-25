@@ -1,9 +1,6 @@
-# markdown-it-slack [![NPM version][npm-image]][npm-url]
----
+# markdown-it-slack
 
-[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url] [![devDependency Status][devdepstat-image]][devdepstat-url]
-
-🚀 This plugin overrides default Github style to Slack style for syntax parser of the following:
+🚀 This plugin overrides default **Github style** to [**Slack style**](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages) for syntax parser of the following:
 
 1. **Bold** (Using * bold * for strong emphasis instead of ** bold ** or __ bold __)
 
@@ -12,8 +9,7 @@
 3. ~~Strikethrough~~ (Using ~ strikethrough ~ instead of ~~ strikethrough ~~)
 
 
-# How to install 🛠️
----
+## How to install 🛠️
 
 ```
 npm install markdown-it-slack --save
@@ -21,10 +17,9 @@ yarn add markdown-it-slack
 ```
 
 
-#How to use 👨‍💻
----
+## How to use 👨‍💻
 
-###Using `import` 
+### Using `import` 
 
 ```js
 import Markdown from "markdown-it";
@@ -37,7 +32,7 @@ md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrou
 ```
 
 
-###Using `require`
+### Using `require`
 
 ```js
 const md = require('markdown-it')();
@@ -47,8 +42,7 @@ md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrou
 
 ```
 
-#Coming soon 🏹 👩‍🔬
----
+## Coming soon 🏹 👩‍🔬
 
 * Customize which syntax to override.
 
