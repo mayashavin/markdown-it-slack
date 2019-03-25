@@ -12,16 +12,26 @@
   "repository": "mayashavin/markdown-it-slack",
   "license": "MIT",
   "scripts": {
-    "test": "make test"
+    "build": "webpack"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
     "browserify": "^16.2.3",
     "coveralls": "^3.0.2",
-    "eslint": "^5.9.0",
+    "eslint": "^5.15.3",
     "istanbul": "^0.4.5",
+    "js-yaml": "^3.13.0",
     "markdown-it": "markdown-it/markdown-it",
     "markdown-it-testgen": "~0.1.0",
     "mocha": "^5.2.0",
-    "terser": "^3.17.0"
+    "terser": "^3.17.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "bundle-loader": "^0.5.6"
   }
 }

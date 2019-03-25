@@ -6,7 +6,7 @@ var testgen  = require('markdown-it-testgen');
 var path     = require('path');
 
 /*eslint-env mocha*/
-
+// TODO: write test
 // Most of the rest of this is inlined from generate(), but modified
 // so we can pass in an `env` object
 function generate(fixturePath, md, env) {
@@ -29,18 +29,3 @@ function generate(fixturePath, md, env) {
     });
   });
 }
-
-
-// describe('footnote.txt', function () {
-//   var md = require('markdown-it')().use(require('../'));
-
-//   // Check that defaults work correctly
-//   generate(path.join(__dirname, 'fixtures/footnote.txt'), md);
-// });
-
-// describe('custom docId in env', function () {
-//   var md = require('markdown-it')().use(require('../'));
-
-//   // Now check that using `env.documentId` works to prefix IDs
-//   generate(path.join(__dirname, 'fixtures/footnote-prefixed.txt'), md, { docId: 'test-doc-id' });
-// });
