@@ -1,0 +1,28 @@
+
+{
+    "name": "markdown-it-slack",
+    "version": "0.0.1",
+    "description": "Plugin for Markdown-it to override default CommonMark standards to Slack standards.",
+    "keywords": [
+      "markdown-it-plugin",
+      "markdown-it",
+      "markdown",
+      "slack",
+      "rich text"
+    ],
+    "repository": "mayashavin/markdown-it-slack",
+    "license": "MIT",
+    "scripts": {
+      "test": "make test"
+    },
+    "devDependencies": {
+      "browserify": "^16.2.3",
+      "coveralls": "^3.0.2",
+      "eslint": "^5.9.0",
+      "istanbul": "^0.4.5",
+      "markdown-it": "markdown-it/markdown-it",
+      "markdown-it-testgen": "~0.1.0",
+      "mocha": "^5.2.0",
+      "terser": "^3.17.0"
+    }
+  }
