@@ -1,6 +1,6 @@
 # markdown-it-slack
 
-🚀 This plugin overrides default **Github style** to [**Slack style**](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages) for syntax parser of the following:
+#### 🚀 This plugin overrides default **Github style** to [**Slack style**](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages) for syntax parser of the following:
 
 1. **Bold** (Using * bold * for strong emphasis instead of ** bold ** or __ bold __)
 
