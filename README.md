@@ -1,4 +1,4 @@
-# markdown-it-slack
+# slack-markdown-it
 
 #### 🚀 This plugin overrides default **Github style** to [**Slack style**](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages) for syntax parser of the following:
 
@@ -27,7 +27,7 @@ yarn add markdown-it-slack
 
 ```js
 import Markdown from "markdown-it";
-import MarkdownSlack from 'markdown-it-slack';
+import MarkdownSlack from 'slack-markdown-it';
 
 const md = Markdown();
 md.use(MarkdownSlack);
@@ -40,7 +40,7 @@ md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrou
 
 ```js
 const md = require('markdown-it')();
-md.use(require('markdown-it-slack'));
+md.use(require('slack-markdown-it'));
 
 md.renderInline(`*This is me in bold*, and he is in _italic_. Don't ~strikethrough~ me!`)
 

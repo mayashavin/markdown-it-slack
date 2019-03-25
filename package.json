@@ -1,13 +1,22 @@
 {
-  "name": "markdown-it-slack",
-  "version": "0.0.1",
+  "name": "slack-markdown-it",
+  "version": "1.0.1",
+  "author": {
+    "name": "Maya Shavin",
+    "email": "dpnminh@gmail.com",
+    "url": "https://mayashavin.com"
+  },
+  "main": "./dist/main.js",
   "description": "Plugin for Markdown-it to override default CommonMark standards to Slack standards.",
   "keywords": [
     "markdown-it-plugin",
     "markdown-it",
     "markdown",
+    "markdown-bold",
+    "markdown-it-slack",
     "slack",
-    "rich text"
+    "rich text",
+    "slackify"
   ],
   "repository": "mayashavin/markdown-it-slack",
   "license": "MIT",
@@ -32,6 +41,6 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "bundle-loader": "^0.5.6"
+    "bundle-loader": "^0.5.6",
   }
 }
