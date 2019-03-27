@@ -13,6 +13,16 @@ Demo: [https://codesandbox.io/embed/j2y24r3yq9](https://codesandbox.io/embed/j2y
 
 ## How to install 🛠️
 
+1. It's written as plugin for [Markdown](https://github.com/markdown-it/markdown-it) so it requires `markdown-it` to be installed.
+
+```
+npm install markdown-it --save
+yarn add markdown-it
+```
+
+
+2. Install using `npm` or `yarn`
+
 ```
 npm install markdown-it-slack --save
 yarn add markdown-it-slack
