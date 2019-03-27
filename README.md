@@ -9,7 +9,7 @@
 3. ~~Strikethrough~~ (Using ~ strikethrough ~ instead of ~~ strikethrough ~~)
 
 
-
+Demo: [https://codesandbox.io/embed/j2y24r3yq9](https://codesandbox.io/embed/j2y24r3yq9)
 
 ## How to install 🛠️
 

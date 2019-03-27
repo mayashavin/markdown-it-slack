@@ -3,7 +3,10 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
+    library: 'slack-markdown-it',
+    libraryTarget: 'umd',
     filename: 'main.js',
+    auxiliaryComment: 'Test Comment',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -17,9 +20,6 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
-      }, {
-        test: /\.bundle\.js$/,
-        use: 'bundle-loader'
       }
     ]
   }
