@@ -24,8 +24,8 @@ yarn add markdown-it
 2. Install using `npm` or `yarn`
 
 ```
-npm install markdown-it-slack --save
-yarn add markdown-it-slack
+npm install slack-markdown-it --save
+yarn add slack-markdown-it
 ```
 
 
